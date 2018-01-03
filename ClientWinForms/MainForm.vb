@@ -3,7 +3,7 @@ Imports System.Net.Sockets
 Imports System.Text
 
 Public Class MainForm
-
+    'This is not test
     Dim _client As TcpClient
     Dim ApplicationDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)
     Dim cfgpath = System.IO.Path.Combine(ApplicationDir, "Configuration.txt")
